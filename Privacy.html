@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SeekLeaderBoard Generator</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
+        h1, h2 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for SeekLeaderBoard Generator</h1>
+    <p><strong>Last Updated:</strong> 27th of May 2025</p>
+
+    <p>This Privacy Policy describes how SeekLeaderBoard Generator ("the App," "we," "us," or "our") handles your information when you use our desktop application.</p>
+
+    <h2>1. Information We Access</h2>
+    <p>When you use SeekLeaderBoard Generator and grant necessary permissions, the App accesses the following information from your Google Account:</p>
+    <ul>
+        <li><strong>Google Sheets Data (Read-Only):</strong> The App requests read-only access to the Google Spreadsheet you specify by its ID or URL. This access is used solely to retrieve data (such as ranks, usernames, and scores) required to generate the leaderboard image. The App does not modify, delete, or otherwise alter your Google Sheets data.</li>
+        <li><strong>Google Account Authentication Tokens:</strong> To maintain a persistent login session and avoid requiring you to log in every time you use the App, we store OAuth 2.0 access and refresh tokens provided by Google. These tokens are stored locally on your computer in a file named <code>user_token.json</code> within the application's directory.</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+        <li><strong>To Generate Leaderboard Images:</strong> The primary purpose of accessing your Google Sheets data is to fetch the leaderboard information and use it to create a visual PNG image as configured by you within the App.</li>
+        <li><strong>To Authenticate Your Account:</strong> OAuth tokens are used to securely authenticate your Google Account with Google's services to allow access to your specified Google Sheet.</li>
+        <li><strong>To Store Configuration:</strong> The App stores your configured Discord Webhook URL and Google Spreadsheet ID/Link locally on your computer in a file named <code>config.ini</code> within the application's directory. This is for your convenience so you don't have to re-enter these settings each time.</li>
+    </ul>
+
+    <h2>3. Data Storage and Security</h2>
+    <ul>
+        <li><strong>Local Storage:</strong>
+            <ul>
+                <li>Authentication tokens (<code>user_token.json</code>) are stored locally on your computer in the application's directory.</li>
+                <li>Configuration settings (<code>config.ini</code>) are stored locally on your computer in the application's directory.</li>
+                <li>Generated leaderboard images (e.g., <code>leaderboard.png</code>) are saved to an "output" sub-directory within the application's directory on your computer.</li>
+            </ul>
+        </li>
+        <li><strong>No Cloud Storage of Your Data by Us:</strong> We do not store your Google Sheets data, authentication tokens, or configuration settings on any external servers or cloud services managed by us. All such data directly related to your Google Account or app configuration resides locally on your device or within your own Google Account.</li>
+        <li><strong>Security of Local Files:</strong> The security of the locally stored <code>user_token.json</code> and <code>config.ini</code> files depends on the security of your computer. We recommend you take appropriate measures to secure your device.</li>
+    </ul>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do not share your personal information, Google Sheets data, or authentication tokens with any third parties. The leaderboard image you generate may be uploaded to a Discord webhook URL that *you* provide in the App's configuration; the sharing of this image is under your control and subject to Discord's terms and privacy policy.</p>
+
+    <h2>5. Your Choices and Data Management</h2>
+    <ul>
+        <li><strong>Revoking Access:</strong> You can revoke the App's access to your Google Account at any time by visiting your Google Account security settings page (usually at <a href="https://myaccount.google.com/permissions" target="_blank">https://myaccount.google.com/permissions</a>).</li>
+        <li><strong>Deleting Local Data:</strong>
+            <ul>
+                <li>To remove stored authentication tokens, you can delete the <code>user_token.json</code> file from the application's directory on your computer.</li>
+                <li>To remove stored configuration, you can delete the <code>config.ini</code> file.</li>
+                <li>Generated images can be deleted from the "output" folder.</li>
+            </ul>
+        </li>
+        <li><strong>Managing Spreadsheet Data:</strong> You have full control over your Google Sheets data within your own Google Account.</li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+    <p>Our App is not intended for use by children under the age of 13 (or the relevant age of consent in your jurisdiction). We do not knowingly collect personal information from children.</p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at: generatetask122@gmail.com</p>
+</body>
+</html>
